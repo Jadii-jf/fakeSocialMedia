@@ -1,0 +1,95 @@
+.header{
+    position: sticky;
+    left: 0;
+    padding-bottom: 0.5em;
+    background-color: #F0F0F0;
+    right: 0;
+    padding-top: 0.5em;
+    top: 0;
+    z-index: 2;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.headerWrapper{
+    height: 100%;
+    padding: 0px 3em;
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: space-between;
+}
+.headerLogoBox{
+}
+.headerLogo{
+
+}
+.headerLeftBox{
+    display: flex;
+    width: 304px;
+    justify-content: space-between;
+}
+.headerLogo span {
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 5px 2px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+.headerIconsBox {
+margin-top: 14px;
+}
+.headerIconsBox .icon {
+    font-size: 1.7rem;
+    margin-right: 20px;
+}
+.hederSearchAvatarBox {
+display: flex;
+align-items: center;
+}
+.inputBox {
+    display: flex;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    margin-right: 30px;
+    width: 300px;
+    justify-content: flex-start;
+    height: 44px;
+    align-items: center;
+    border-radius: 20px;
+}
+.inputBox .icon{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.headerInput{
+    height: 39px;
+    border: none;
+    width: 263px;
+    outline: none;
+    offset: none;
+    background: transparent;
+    font-size: 1.4rem;
+    font-family: cursive;
+}
+.headerImgBox{
+cursor: pointer;
+position: relative;
+}
+.headerImgBox::after{
+    content: '';
+    background-color: greenyellow;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    right: -5px;
+}
+.headerAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+@media screen and (max-width:769px)
+{
+    .inputBox{
+        display: none;
+    }
+}

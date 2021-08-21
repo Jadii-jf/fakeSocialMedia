@@ -1,0 +1,120 @@
+.popBox{
+    display: block;
+    position: absolute;
+    left: -308px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: initial;
+    width: 300px;
+    top: 62px;
+    padding: 10px;
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+}
+.popBoxAvatarBox{
+   
+    display: flex;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 10px;
+
+}
+.popBoxFlex{
+    display: flex;
+    align-items: center;
+}
+
+.popBoxFlex .headerAvatar{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.popBoxName{
+    margin-right: 30px;
+}
+.popBoxName h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.popBoxName span{
+    font-size: .8rem;
+    font-weight: 300;
+    color: #5555;
+}
+
+.popBoxButton{
+    width:40px;
+    position: relative;
+    height: 24px;
+    top: -13px;
+    cursor: pointer;
+    border-radius: 20px;
+    left: 41px;
+    background: antiquewhite;
+}
+.cirlce{
+    position: absolute;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    top: 4px;
+    left: 2px;
+    background-color: black;
+}
+.popBoxDes{
+    border-bottom: 2px solid cadetblue;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-left: 0px;
+    align-items: center;
+}
+.popBoxDes .icon{
+    margin-right: 20px !important;
+    padding: 10px;
+    border-radius: 50%;
+    background: cadetblue;
+    margin-right: 7px;
+    font-size: 2.6rem;
+}
+
+.desData{
+    
+}
+.desData h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.desData span{
+    font-size: .8rem;
+    font-weight: 300;
+    color: #5555;
+}
+.popBox ul{
+
+}
+.popBox ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+.popBox ul li div{
+    display: flex;
+    align-items: center;
+}
+.popBox ul li div .icon{
+    padding: 10px;
+    border-radius: 50%;
+    background: cadetblue;
+    margin-right: 20px;
+    font-size: 2.4rem;
+}
+.popBox ul li svg{
+    cursor: pointer;
+}

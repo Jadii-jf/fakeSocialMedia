@@ -1,0 +1,20 @@
+.newsFeed{
+    display: inline-block;
+    width: 60%;
+    margin-top: 20px;
+    background-color: #F0F0F0;
+   
+}
+@media screen and (min-width:1390px)
+{
+    .newsFeed{
+        width: 50%;
+    }
+}
+@media screen and (max-width:950px)
+{
+   .newsFeed{
+       width: 82%;
+       margin-right: 20px;
+   }
+}

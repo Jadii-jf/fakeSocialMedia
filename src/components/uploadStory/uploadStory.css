@@ -1,0 +1,65 @@
+.uploadStory{
+margin: 20px 0px;
+padding: 25px;
+border-radius: 10px;
+background-color: white;
+box-shadow: 0px 0px 15px -10px rgb(0 0 0 / 75%);
+}
+.uploadStHdWr{
+display: flex;
+align-items: center;
+}
+.upStImg{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: top center;
+    object-fit: cover;
+    object-position: 0px 67%;
+    margin-right: 15px;
+}
+.upStTit{
+    
+}
+.upStTit h2{
+    font-size: 1.2rem;
+    font-family: cursive;
+    font-weight: 300;
+}
+.upStTit select{
+    border: none;
+    offset: none;
+    cursor: pointer;
+    outline: none;
+}
+.upStInput{
+    height: 110px;
+    margin-left: 6vw;
+    width: 90%;
+    border-left: none;
+    border-right: none;
+    font-size: 1.1rem;
+    font-family: cursive;
+    border-top: none;
+    margin-bottom: 20px;
+}
+.upStIcBx{
+    display: flex
+}
+.upStIcLst{
+    display: flex;
+    align-items: center;
+}
+.upStIcon{
+    margin-left: 4vw;
+    display: flex;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.upStIcLst h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: grey;
+}
+.{}
+.{}
